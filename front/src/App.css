@@ -1,0 +1,86 @@
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+h1,h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.formulario input, .formulario button{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.formulario input{
+  border: 1px solid #ccc;
+}
+
+.formulario button{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.formulario button:hover{
+  background-color: #0065b3;
+}
+
+.galeria{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card{
+  width: 230px;
+  border: 1px solid  #ddd;
+  padding: 12px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+
+.card h2{
+  margin:  8px 0 4px;
+  font-size: 18px;
+}
+
+.card p {
+  color: #665;
+  font-size: 14px;
+  margin: 0;
+}
+
+.vazio{
+  color: #777;
+  text-align: center;
+  font-style: italic;
+}
